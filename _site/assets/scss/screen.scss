@@ -42,6 +42,11 @@
 	border-radius: 10px;
 	vertical-align: middle;
 }
+
+.arrow:hover{
+	cursor: context-menu;
+}
+
 .menu{
 	float: right;
 	clear: both;
@@ -53,7 +58,7 @@
 	padding: 0;
 	background-color: #ffffcc;
 	border-radius: 20px;
-	border: 52px solid rgba(0, 0, 0, .2);
+	border: 60px solid rgba(0, 0, 0, .2);
     -webkit-background-clip: padding-box; 
     background-clip: padding-box; 
 }
@@ -73,6 +78,11 @@
 	list-style-type: square;
 	font-size: 40px;
 	margin-left: 25px;
+	cursor: pointer;
+}
+
+.hidden{
+	display: none;
 }
 
 
