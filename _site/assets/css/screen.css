@@ -16,54 +16,63 @@
   right: 0;
   width: 100%;
   height: 650px;
-  background: linear-gradient(rgba(55, 55, 55, 0.8), rgba(55, 55, 55, 0.8)), url(../images/laura.jpg) no-repeat;
+  background: linear-gradient(rgba(65, 65, 65, 0.6), rgba(65, 65, 65, 0.6)), url(../images/laura.jpg) no-repeat;
   background-size: cover;
   font-family: "goudy bookletter 1911";
-  font-size: 30px;
-  color: #ffffcc;
-  letter-spacing: 10px;
 }
 
-/* line 32, ../scss/screen.scss */
-div {
+/* line 29, ../scss/screen.scss */
+.title {
   width: 25%;
   float: right;
   padding: 25px;
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffcc;
+  letter-spacing: 8px;
 }
 
-/* line 38, ../scss/screen.scss */
+/* line 39, ../scss/screen.scss */
+.arrow {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+/* line 45, ../scss/screen.scss */
 .menu {
-  background-color: #ffffcc;
+  float: right;
   clear: both;
   width: 200px;
-  border-radius: 20px;
   color: #4d4d4d;
   letter-spacing: 15px;
   font-size: 18px;
   margin-right: 65px;
   padding: 0;
-  border: 50px solid rgba(0, 0, 0, 0.2);
+  background-color: #ffffcc;
+  border-radius: 20px;
+  border: 52px solid rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
-  /* for Safari */
   background-clip: padding-box;
 }
 
-/* line 53, ../scss/screen.scss */
+/* line 61, ../scss/screen.scss */
 .menu ul {
   list-style: none;
   padding: 20px;
 }
 
-/* line 58, ../scss/screen.scss */
+/* line 66, ../scss/screen.scss */
 .menu li {
   line-height: 50px;
 }
 
-/* line 62, ../scss/screen.scss */
+/* line 70, ../scss/screen.scss */
 .menu li:hover {
   letter-spacing: 1px;
   color: #aaaaaa;
   list-style-type: square;
-  font-size: 50px;
-  margin-left: 15px;
+  font-size: 40px;
+  margin-left: 25px;
 }
