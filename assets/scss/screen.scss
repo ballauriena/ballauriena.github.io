@@ -31,14 +31,18 @@
 	float: right;
 	padding: 25px;
 	font-size: 30px;
-	line-height: 50px;
     color: #ffffcc;
     letter-spacing: 8px;
+    text-align: center;
+}
+
+.title p{
+	margin: 0px;
 }
 
 .arrow{
 	background-color:rgba(0,0,0,0.2);
-	padding: 15px;
+	padding: 5px 140px 5px 140px;
 	border-radius: 10px;
 	vertical-align: middle;
 }
@@ -54,11 +58,11 @@
 	color: #4d4d4d;
 	letter-spacing: 15px;
 	font-size: 18px;
-	margin-right: 65px;
+	margin-right: 45px;
 	padding: 0;
 	background-color: #ffffcc;
 	border-radius: 20px;
-	border: 60px solid rgba(0, 0, 0, .2);
+	border: 50px solid rgba(0, 0, 0, .2);
     -webkit-background-clip: padding-box; 
     background-clip: padding-box; 
 }
