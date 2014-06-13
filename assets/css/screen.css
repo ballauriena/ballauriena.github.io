@@ -26,31 +26,32 @@
   width: 25%;
   float: right;
   padding: 25px;
+  padding-bottom: 10px;
   font-size: 30px;
   color: #ffffcc;
   letter-spacing: 8px;
   text-align: center;
 }
 
-/* line 39, ../scss/screen.scss */
+/* line 40, ../scss/screen.scss */
 .title p {
   margin: 0px;
 }
 
-/* line 43, ../scss/screen.scss */
+/* line 44, ../scss/screen.scss */
 .arrow {
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 5px 140px 5px 140px;
+  padding: 2px 140px 2px 140px;
   border-radius: 10px;
   vertical-align: middle;
 }
 
-/* line 50, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 .arrow:hover {
   cursor: context-menu;
 }
 
-/* line 54, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 .menu {
   float: right;
   clear: both;
@@ -67,18 +68,18 @@
   background-clip: padding-box;
 }
 
-/* line 70, ../scss/screen.scss */
+/* line 71, ../scss/screen.scss */
 .menu ul {
   list-style: none;
   padding: 20px;
 }
 
-/* line 75, ../scss/screen.scss */
+/* line 76, ../scss/screen.scss */
 .menu li {
   line-height: 50px;
 }
 
-/* line 79, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 .menu li:hover {
   letter-spacing: 1px;
   color: #aaaaaa;
@@ -88,7 +89,7 @@
   cursor: pointer;
 }
 
-/* line 88, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .hidden {
   display: none;
 }
