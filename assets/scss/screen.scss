@@ -10,13 +10,17 @@
 @include font-face("goudy bookletter 1911", font-files("goudy_bookletter_1911-webfont.woff",
 														"goudy_bookletter_1911-webfont.ttf", "goudy_bookletter_1911-webfont.svg"), "goudy_bookletter_1911-webfont.eot");
 
-/* -------------------------------------------------------------------------*/
-/* Layout */
+/* COLORS ------------------------------------------------------------------*/
+
+$lightyellow: 		#ffffcc;
+$lightgray: 		#aaaaaa;
+$darkpurple: 		#330033;
+
+/* STYLES------------------------------------------------------------------ */
 
 .container {
 	@include stretch;
 	width: 100%;
-	height: 650px;
 	background: 
 	  linear-gradient(
       rgba(65, 65, 65, 0.6), 
@@ -33,7 +37,7 @@
 	padding: 45px;
 	padding-bottom: 10px;
 	font-size: 30px;
-    color: #ffffcc;
+    color: $lightyellow;
     letter-spacing: 8px;
     text-align: center;
 }
@@ -42,7 +46,8 @@
 	margin: 0px;
 }
 
-/*---------------------drop menu------------------------------*/
+/* DROP MENU--------------------------------------------------------------*/
+
 .arrow{
 	border-radius: 10px;
 	font-size: 20px;
@@ -58,19 +63,19 @@
 
 .arrow:hover{
 	cursor: context-menu;
-	color: #aaaaaa;
+	color: $lightgray;
 }
 
 .menu{
 	float: right;
 	clear: both;
 	width: 200px;
-	color: #4d4d4d;
+	color: $darkpurple;
 	letter-spacing: 15px;
 	font-size: 18px;
 	margin-right: 45px;
 	padding: 0;
-	background-color: #ffffcc;
+	background-color: $lightyellow;
 	border-radius: 20px;
 	border: 50px solid rgba(0, 0, 0, .2);
     -webkit-background-clip: padding-box; 
@@ -88,7 +93,7 @@
 
 .menu li:hover{
 	letter-spacing: 1px;
-	color: #aaaaaa;
+	color: $lightgray;
 	list-style-type: square;
 	font-size: 40px;
 	margin-left: 25px;
@@ -98,6 +103,45 @@
 .hidden{
 	display: none;
 }
+/*-----------------footer-----------------------------*/
 
+footer{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(to bottom, rgba(33, 0, 33, 0),  rgba(33, 0, 33, 1));
+	bottom: 0;
+	left: 0;
+    position: fixed;
+    font-family: "goudy bookletter 1911";
+    color: $lightgray;
+    letter-spacing: 3px;
+    line-height: 250px;
+}
+
+.copyright{
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+}
+
+.social{
+	color: $lightgray;
+	font-size: 40px;
+	list-style: none;
+	margin-top: -100px;
+}
+
+.social li{
+	float: right;
+	margin-right: 7%;
+}
+
+.social a{
+	color: $lightgray;
+}
+
+.social a:hover{
+	color: $lightyellow;
+}
 
 

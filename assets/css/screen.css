@@ -5,9 +5,9 @@
   src: url('/assets/fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/goudy_bookletter_1911-webfont.woff') format('woff'), url('/assets/fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'), url('/assets/fonts/goudy_bookletter_1911-webfont.svg') format('svg');
 }
 
-/* -------------------------------------------------------------------------*/
-/* Layout */
-/* line 16, ../scss/screen.scss */
+/* COLORS ------------------------------------------------------------------*/
+/* STYLES------------------------------------------------------------------ */
+/* line 21, ../scss/screen.scss */
 .container {
   position: absolute;
   top: 0;
@@ -15,13 +15,12 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 650px;
   background: linear-gradient(rgba(65, 65, 65, 0.6), rgba(65, 65, 65, 0.6)), url(../images/laura.jpg) no-repeat;
   background-size: cover;
   font-family: "goudy bookletter 1911";
 }
 
-/* line 30, ../scss/screen.scss */
+/* line 34, ../scss/screen.scss */
 .title {
   width: 300px;
   float: right;
@@ -33,40 +32,40 @@
   text-align: center;
 }
 
-/* line 41, ../scss/screen.scss */
+/* line 45, ../scss/screen.scss */
 .title p {
   margin: 0px;
 }
 
-/*---------------------drop menu------------------------------*/
-/* line 46, ../scss/screen.scss */
+/* DROP MENU--------------------------------------------------------------*/
+/* line 51, ../scss/screen.scss */
 .arrow {
   border-radius: 10px;
   font-size: 20px;
 }
 
-/* line 51, ../scss/screen.scss */
+/* line 56, ../scss/screen.scss */
 .down {
   text-align: center;
 }
 
-/* line 55, ../scss/screen.scss */
+/* line 60, ../scss/screen.scss */
 .up {
   margin-left: 70px;
 }
 
-/* line 59, ../scss/screen.scss */
+/* line 64, ../scss/screen.scss */
 .arrow:hover {
   cursor: context-menu;
   color: #aaaaaa;
 }
 
-/* line 64, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .menu {
   float: right;
   clear: both;
   width: 200px;
-  color: #4d4d4d;
+  color: #330033;
   letter-spacing: 15px;
   font-size: 18px;
   margin-right: 45px;
@@ -78,18 +77,18 @@
   background-clip: padding-box;
 }
 
-/* line 80, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 .menu ul {
   list-style: none;
   padding: 20px;
 }
 
-/* line 85, ../scss/screen.scss */
+/* line 90, ../scss/screen.scss */
 .menu li {
   line-height: 50px;
 }
 
-/* line 89, ../scss/screen.scss */
+/* line 94, ../scss/screen.scss */
 .menu li:hover {
   letter-spacing: 1px;
   color: #aaaaaa;
@@ -99,7 +98,53 @@
   cursor: pointer;
 }
 
-/* line 98, ../scss/screen.scss */
+/* line 103, ../scss/screen.scss */
 .hidden {
   display: none;
+}
+
+/*-----------------footer-----------------------------*/
+/* line 108, ../scss/screen.scss */
+footer {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, rgba(33, 0, 33, 0), #210021);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  font-family: "goudy bookletter 1911";
+  color: #aaaaaa;
+  letter-spacing: 3px;
+  line-height: 250px;
+}
+
+/* line 121, ../scss/screen.scss */
+.copyright {
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+}
+
+/* line 127, ../scss/screen.scss */
+.social {
+  color: #aaaaaa;
+  font-size: 40px;
+  list-style: none;
+  margin-top: -100px;
+}
+
+/* line 134, ../scss/screen.scss */
+.social li {
+  float: right;
+  margin-right: 7%;
+}
+
+/* line 139, ../scss/screen.scss */
+.social a {
+  color: #aaaaaa;
+}
+
+/* line 143, ../scss/screen.scss */
+.social a:hover {
+  color: #ffffcc;
 }
