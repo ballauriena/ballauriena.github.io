@@ -7,7 +7,7 @@
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 15, ../scss/screen.scss */
+/* line 16, ../scss/screen.scss */
 .container {
   position: absolute;
   top: 0;
@@ -21,11 +21,11 @@
   font-family: "goudy bookletter 1911";
 }
 
-/* line 29, ../scss/screen.scss */
+/* line 30, ../scss/screen.scss */
 .title {
-  width: 25%;
+  width: 300px;
   float: right;
-  padding: 25px;
+  padding: 45px;
   padding-bottom: 10px;
   font-size: 30px;
   color: #ffffcc;
@@ -33,25 +33,35 @@
   text-align: center;
 }
 
-/* line 40, ../scss/screen.scss */
+/* line 41, ../scss/screen.scss */
 .title p {
   margin: 0px;
 }
 
-/* line 44, ../scss/screen.scss */
+/*---------------------drop menu------------------------------*/
+/* line 46, ../scss/screen.scss */
 .arrow {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 2px 140px 2px 140px;
   border-radius: 10px;
-  vertical-align: middle;
+  font-size: 20px;
 }
 
 /* line 51, ../scss/screen.scss */
-.arrow:hover {
-  cursor: context-menu;
+.down {
+  text-align: center;
 }
 
 /* line 55, ../scss/screen.scss */
+.up {
+  margin-left: 70px;
+}
+
+/* line 59, ../scss/screen.scss */
+.arrow:hover {
+  cursor: context-menu;
+  color: #aaaaaa;
+}
+
+/* line 64, ../scss/screen.scss */
 .menu {
   float: right;
   clear: both;
@@ -68,18 +78,18 @@
   background-clip: padding-box;
 }
 
-/* line 71, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 .menu ul {
   list-style: none;
   padding: 20px;
 }
 
-/* line 76, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 .menu li {
   line-height: 50px;
 }
 
-/* line 80, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .menu li:hover {
   letter-spacing: 1px;
   color: #aaaaaa;
@@ -89,7 +99,7 @@
   cursor: pointer;
 }
 
-/* line 89, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 .hidden {
   display: none;
 }

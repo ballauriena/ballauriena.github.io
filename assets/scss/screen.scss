@@ -1,5 +1,6 @@
 // ---------------------------------------------------------------------------
 // Imports
+
 @import "compass/css3";
 @import "compass/layout/stretching";
 @import "base";
@@ -27,9 +28,9 @@
 }
 
 .title{
-	width: 25%;
+	width: 300px;
 	float: right;
-	padding: 25px;
+	padding: 45px;
 	padding-bottom: 10px;
 	font-size: 30px;
     color: #ffffcc;
@@ -41,15 +42,23 @@
 	margin: 0px;
 }
 
+/*---------------------drop menu------------------------------*/
 .arrow{
-	background-color:rgba(0,0,0,0.2);
-	padding: 2px 140px 2px 140px;
 	border-radius: 10px;
-	vertical-align: middle;
+	font-size: 20px;
+}
+
+.down{
+	text-align: center;
+}
+
+.up{
+	margin-left: 70px;
 }
 
 .arrow:hover{
 	cursor: context-menu;
+	color: #aaaaaa;
 }
 
 .menu{

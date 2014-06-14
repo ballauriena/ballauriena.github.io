@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
-	$(".arrow").on("mouseenter", function(){
-		$(".menu").toggleClass("hidden");
+// -----------------for hiding and showing the menu---------------------------------
+	$(".down").click(function(){
+		$(".menu").removeClass("hidden");
+	});
+
+	$(".up").click(function(){
+		$(".menu").addClass("hidden");
 	});
 
 });
