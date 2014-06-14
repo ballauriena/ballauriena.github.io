@@ -26,7 +26,7 @@
   float: right;
   padding: 45px;
   padding-bottom: 10px;
-  font-size: 30px;
+  font-size: 40px;
   color: #ffffcc;
   letter-spacing: 8px;
   text-align: center;
@@ -37,30 +37,36 @@
   margin: 0px;
 }
 
+/* line 49, ../scss/screen.scss */
+.small {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
 /* DROP MENU--------------------------------------------------------------*/
-/* line 51, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 .arrow {
   border-radius: 10px;
   font-size: 20px;
 }
 
-/* line 56, ../scss/screen.scss */
+/* line 60, ../scss/screen.scss */
 .down {
   text-align: center;
 }
 
-/* line 60, ../scss/screen.scss */
+/* line 64, ../scss/screen.scss */
 .up {
   margin-left: 70px;
 }
 
-/* line 64, ../scss/screen.scss */
+/* line 68, ../scss/screen.scss */
 .arrow:hover {
   cursor: context-menu;
   color: #aaaaaa;
 }
 
-/* line 69, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 .menu {
   float: right;
   clear: both;
@@ -77,18 +83,18 @@
   background-clip: padding-box;
 }
 
-/* line 85, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .menu ul {
   list-style: none;
   padding: 20px;
 }
 
-/* line 90, ../scss/screen.scss */
+/* line 94, ../scss/screen.scss */
 .menu li {
   line-height: 50px;
 }
 
-/* line 94, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 .menu li:hover {
   letter-spacing: 1px;
   color: #aaaaaa;
@@ -98,13 +104,13 @@
   cursor: pointer;
 }
 
-/* line 103, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 .hidden {
   display: none;
 }
 
 /*-----------------footer-----------------------------*/
-/* line 108, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 footer {
   width: 100%;
   height: 150px;
@@ -118,14 +124,14 @@ footer {
   line-height: 250px;
 }
 
-/* line 121, ../scss/screen.scss */
+/* line 125, ../scss/screen.scss */
 .copyright {
   display: inline-block;
   float: left;
   margin-left: 50px;
 }
 
-/* line 127, ../scss/screen.scss */
+/* line 131, ../scss/screen.scss */
 .social {
   color: #aaaaaa;
   font-size: 40px;
@@ -133,18 +139,18 @@ footer {
   margin-top: -100px;
 }
 
-/* line 134, ../scss/screen.scss */
+/* line 138, ../scss/screen.scss */
 .social li {
   float: right;
   margin-right: 7%;
 }
 
-/* line 139, ../scss/screen.scss */
+/* line 143, ../scss/screen.scss */
 .social a {
   color: #aaaaaa;
 }
 
-/* line 143, ../scss/screen.scss */
+/* line 147, ../scss/screen.scss */
 .social a:hover {
   color: #ffffcc;
 }
